@@ -17,5 +17,5 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   plugin:
-    androidPackage: uk.co.moodio.msal_flutter
+    androidPackage: be.jidoka.msal_flutter
     pluginClass: MsalFlutterPlugin

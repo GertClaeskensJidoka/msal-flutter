@@ -1,4 +1,4 @@
-group 'be.jidoka.msal_flutter'
+group 'uk.co.moodio.msal_flutter'
 version '1.0-SNAPSHOT'
 
 buildscript {

@@ -48,7 +48,7 @@ class MsalFlutterPlugin: MethodCallHandler {
                 override fun onError(exception : MsalException)
                 {
                     Log.d("MsalFlutter","Error logging in!")
-                    Log.d("MsalFlutter", exception.message)
+                    Log.d("MsalFlutter", exception?.message ?? "No Message")
                     Handler(Looper.getMainLooper()).post {
                         result.error("AUTH_ERROR", "Authentication failed", exception.localizedMessage)
                     }
